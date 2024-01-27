@@ -1,0 +1,14 @@
+[0;1;32m●[0m mysql.service - MySQL Community Server
+     Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Wed 2024-01-24 17:03:00 SAST; 44min ago
+    Process: 52639 ExecStartPre=/usr/share/mysql/mysql-systemd-start pre (code=exited, status=0/SUCCESS)
+   Main PID: 52647 (mysqld)
+     Status: "Server is operational"
+      Tasks: 39 (limit: 9235)
+     Memory: 361.5M
+        CPU: 21.539s
+     CGroup: /system.slice/mysql.service
+             └─52647 /usr/sbin/mysqld
+
+Jan 24 17:02:37 asus-VivoBook-ASUSLaptop-X415FAC-X415FA systemd[1]: Starting MySQL Community Server...
+Jan 24 17:03:00 asus-VivoBook-ASUSLaptop-X415FAC-X415FA systemd[1]: Started MySQL Community Server.
